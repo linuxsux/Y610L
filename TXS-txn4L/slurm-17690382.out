@@ -1,0 +1,43 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) CCconfig         4) imkl/2020.1.217    7) libfabric/1.10.1
+  2) gentoo/2020      5) intel/2020.1.217   8) openmpi/4.0.3
+  3) gcccore/.9.3.0   6) ucx/1.8.0          9) StdEnv/2020
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) libfabric/1.10.1     2) openmpi/4.0.3     3) ucx/1.8.0
+
+The environment has already been set by the module.
+Not making any changes.
+srun: error: timeout waiting for task launch, started 0 of 8 tasks
+srun: StepId=17690382.0 aborted before step completely launched.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete
+Error: Number of atoms in NetCDF file (129025) does not match number
+Error:  in associated topology (129023)!
+Error: Could not set up 'QM_MM/TXS-txn4_qmmm.rst7' for reading.
+Error: Could not set up input trajectory 'QM_MM/TXS-txn4_qmmm.rst7'.
+	1 errors encountered reading input.
+Error: Error(s) occurred during execution.
+
+CPPTRAJ: Trajectory Analysis. V5.1.0 OpenMP
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| 4 OpenMP threads available.
+| Date/time: 11/07/23 20:06:48
+| Available memory: 8.783 GB
+
+INPUT: Reading input from 'QM_MM/to_pdb.in'
+  [parm TXS-txn4.prmtop]
+	Reading 'TXS-txn4.prmtop' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+  [trajin QM_MM/TXS-txn4_qmmm.rst7]
+	Reading 'QM_MM/TXS-txn4_qmmm.rst7' as Amber NC Restart
+TIME: Total execution time: 0.7624 seconds.
+
